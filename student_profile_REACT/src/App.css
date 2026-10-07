@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Header */
+.header {
+  background-color: #2563eb;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header h1 {
+  color: white;
+  margin: 0;
+  font-size: 42px;
+}
+
+/* Main content */
+.container {
+  width: 60%;
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+.container h3 {
+  color: #1f2937;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+/* Student Profile */
+.student-profile {
+  background-color: white;
+  border: 2px solid #2563eb;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 25px;
+  min-height: 120px;
+  box-sizing: border-box;
+}
+
+.student-profile h2 {
+  color: #2563eb;
+  margin-top: 0;
+}
+
+.student-profile p {
+  color: #333;
+  font-size: 16px;
+}
+
+/* Footer */
+.footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 40px;
+}
